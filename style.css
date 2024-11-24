@@ -1,9 +1,9 @@
 .containerone {
     background: linear-gradient(300deg, #3660e9, #5683d8, white);
     
-    height: auto;
-    width: auto;
-    display: flex;
+    height: fit-content;
+    width: fit-content;
+    
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 2fr; ratio
