@@ -1,0 +1,54 @@
+.containerone {
+    background: linear-gradient(300deg, #3660e9, #5683d8, white);
+    
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+.containerfooter {
+    background: linear-gradient(300deg, #3660e9, #5683d8, white);
+    height: auto; 
+    width: auto;
+}
+
+.foto {
+    align-self: center;
+    border-color: #3660e9;
+    border-radius: 60%;
+    grid-area: 2/5/5/5;
+}
+#Liga {
+    grid-area: 1/2/1/5;
+    
+}
+
+#Numbers {
+    grid-area: 2/2/2/5;
+    
+}
+
+#one {
+    grid-area: 3/2/3/4;
+}
+
+#two {
+    grid-area: 4/2/4/4;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font: size 1/2em; ;
+}
